@@ -79,11 +79,34 @@
         let squareRed = document.getElementsByClassName('center-content')[0];
         squareRed.style.background = 'white';
         }
-        
         changeSquareToWhite();
 
+        // 4.
+        function correctTitle(){
 
-        
+        let title = document.getElementsByTagName('h1')[0];
+        title.innerHTML = 'Exercising silence';
+        }
+        correctTitle();
+
+        // 5.
+        function paragraphUpperCase(){
+
+       let paragraph = document.getElementsByTagName('p')[0];
+       paragraph.innerHTML = paragraph.innerHTML.toUppercase()
+    
+        }
+        paragraphUpperCase();
+         
+        // 6.
+         function showParagraphs(){
+
+        let paragraphs = document.getElementsByTagName('p');
+        for ( let index = 0; index < paragraphs.length; index++){
+        console.log(paragraphs[index].innerHTML);
+         }
+        }
+        showParagraphs();
     </script>
   </body>
 </html>
