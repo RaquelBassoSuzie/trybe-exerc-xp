@@ -62,4 +62,12 @@ function onClicked(){
 
   car1.style.marginLeft = newPos + 'px'
   car2.style.marginLeft = newPos2 + 'px'
+
+  if (newPos > window.innerWidth){
+      console.log('carro 1 ganhou')
+  }
+  if (newPos2 > window.innerWidth){
+    console.log('carro 2 ganhou')
+
+  }
 }
