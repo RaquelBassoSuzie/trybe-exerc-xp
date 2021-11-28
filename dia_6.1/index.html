@@ -43,6 +43,8 @@
       </fieldset>
       
     </div>
+
+
     <!-- LISTA DE ITENS-->
     <div class="line-content">
         <label for="t-shirt">T-Shirt Size</label>
@@ -53,6 +55,39 @@
           <option value="l">Large</option>
         </select>
     </div>
+
+
+    <!-- TEXTO COM VARIAS LINHAS-->
+    <div class="line-content">
+      <label for="abstract">Abstract</label>
+      <textarea id="abstract" name="abstract" maxlength="40" cols="35" rows="10"></textarea>
+      <div class="instruccions">Describe your talk in 500 words or less</div>
+    </div>
+
+    <!-- USUARIO PODE ESCOLHER VARIAS OPÇÕES AO MESMO TEMPO-->
+
+    <div class="line-content">
+      <label for="avaliable"
+      <input id="avaliable"
+              name="avaliable"
+              type="checkbox"
+              value="is-avaliable"/>
+       <span>I'm actually avaliable the day of the talk </span>   
+      </label> 
+      <label for="accept">
+        <input id="accept"
+               name="avaliable"
+               type="checkbox"
+               value="is-accept"/>
+         <span>I accept</span>    
+      </label>
+    </div>
+
+    <div class="line-content">
     <button id="bt" type="submit">Submit</button>
+    </div>
+   </div>
+  </form>
+  <script src="script.js"></script>  
 </body>
 </html>
