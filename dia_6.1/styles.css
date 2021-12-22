@@ -60,4 +60,11 @@ body {
   padding: 10px;
 }
 
+.header form {
+  border-radius: 5px;
+  background-color: wheat;
+  box-shadow: 10px 5px 15px rgb(150, 150, 150);
+  padding: 10px;
+}
+
 
