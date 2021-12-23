@@ -29,22 +29,22 @@ const {
     });
   
     it("loginErrorMessage() returns a message in the format: `Pessoa usuária '${user}' não encontrada, tente novamente!`", () => {
-      expect(loginErrorMessage("Bob")).toBe(
+      expect(loginErrorMessage("Bob!")).toBe(
         "Pessoa usuária 'Bob' não encontrada, tente novamente!"
       );
     });  
   });
 
-    TestWatcher('array and object equality', () => {
-        const arr = [1, 2, 3];
-        const obj = { a: 1, b: 2, c: 3};
+    // TestWatcher('array and object equality', () => {
+    //     const arr = [1, 2, 3];
+    //     const obj = { a: 1, b: 2, c: 3};
 
-        // expect(arr).toBe([1, 2, 3]);
-        // expect(obj).toBe({ a: 1, b: 2, c: 3});
+    //     // expect(arr).toBe([1, 2, 3]);
+    //     // expect(obj).toBe({ a: 1, b: 2, c: 3});
     
-        expect(arr).toEqual([1, 2, 3]);
-        expect(obj).toEqual({ a: 1, b: 2, c: 3});
-    });
+    //     expect(arr).toEqual([1, 2, 3]);
+    //     expect(obj).toEqual({ a: 1, b: 2, c: 3});
+    // });
     
 
     
