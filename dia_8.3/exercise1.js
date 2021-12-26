@@ -116,3 +116,12 @@ const expectedResult = [
    }
   
    console.log(nameAndAge());
+
+   const experResult = 'O Senhor dos Anéis';
+
+   function authorWith3DotsName () {
+     return books.find((book) => (
+       book.author.name.split(' ')
+       .filter((word) => word.endsWith ('.')).length === 3
+     )).name
+    }
