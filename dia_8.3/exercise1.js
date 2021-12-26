@@ -108,11 +108,11 @@ const expectedResult = [
   
   function nameAndAge() {
     // escreva seu código aqui
-    return books.map((book) => {
+    return books.map((book) => ({
         author: book.author.name,
         age: book.releaseYear - book.author.birthYear,
-    }
-  ))
-   .sort((obj1, obj2) => obj1.age - obj2.age);
-    }
+    })).sort((obja, objb) => obja.age - objb.age);
   
+   }
+  
+   console.log(nameAndAge());
